@@ -5,4 +5,3 @@ color FC
 ::call get-latest.bat
 youtube-dl.exe --verbose --extract-audio --audio-format mp3 --batch-file url.txt
 move /y *.mp3 Download-mp3
-pause
